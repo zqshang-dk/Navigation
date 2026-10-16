@@ -1,0 +1,21 @@
+# 默认忽略根目录下所有内容，只保留下面指定的项目
+/*
+!/.gitignore
+!/Result/
+!/Report/
+!/Navigation_SPPSPV/
+!/README.md
+
+# 以下是建议排除的编辑器缓存和本机配置
+**/.vs/
+**/.vscode/
+**/.idea/
+**/.obsidian/
+**/__pycache__/
+
+# 编译输出
+/Navigation_SPPSPV/linux/build/
+/Navigation_SPPSPV/linux/lib/*.exe
+/Navigation_SPPSPV/win/Debug/x64/
+/Navigation_SPPSPV/win/Debug/Debug/x64/
+*.vcxproj.user
